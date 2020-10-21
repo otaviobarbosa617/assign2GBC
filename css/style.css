@@ -1,0 +1,328 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #cdcfd1; 
+    background-image: url("../images/18010.jpg");
+    background-size: cover;
+}
+
+body {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1000px;
+    border: 3px black;
+    box-shadow: 3px 3px 5px gray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 300%;
+    background-color: #DF8C51;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+#nav_menu {
+    padding-bottom: 25px;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+}
+
+#nav_menu ul li {
+    width: 175px;
+    margin: .5em .75em .5em 0;
+    float: left;
+    text-align: center;
+}
+
+#nav_menu ul li a {
+    display: block;
+    padding: .5em .5em;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #DF8C51;
+    background-color: white;
+    box-shadow: 3px 3px 5px gray;
+}
+
+#nav_menu ul li a.current {
+    background-color: #DF8C51;
+    color: white;
+}
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+    background-color: #DF8C51;
+    color: white;
+}
+
+hr {
+    border: 10px solid gray;
+}
+
+h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+h2::first-letter, h3::first-letter {
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 20px 20px 20px;
+    line-height: 120%;
+}
+
+p+p a {
+    text-decoration: none;
+    color: #DF8C51;
+}
+
+a {
+    color: #DF8C51;
+}
+
+
+#shortdesc {
+    list-style-type: none;
+}
+
+footer p:first-child a {
+    display: block;
+    padding: .5em .5em;
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    color: #DF8C51;
+    background-color: white;
+    box-shadow: 3px 3px 5px gray;
+}
+
+footer p:first-child a:hover, footer p:first-child a:focus {
+    background-color: #DF8C51;
+    color: white;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+/* First, I've normalized the tables to visualize it better while coding */
+
+table {
+    border: 2px black;
+    border-style: solid;
+    border-collapse: collapse;
+    width: auto;
+}
+
+td {
+    border: 2p black solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* I've tried to keep a consistent look throughout all the tables on the website */
+
+table.tablesCourses {
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+    border: 2px #DF8C51 solid;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.tablesCourses td {
+    border: 2px #DF8C51 solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.tablesCourses th {
+    background-color: #DF8C51;
+    color: white;
+    padding: 10px;
+}
+
+.tablesCourses tr:nth-child(even) {
+    background-color: #c9c4c3;
+}
+
+.tablesCourses tfoot {
+    background-color: #DF8C51;
+    color: white;
+}
+
+/* Table 1 */
+
+table.table1 {
+    margin: 0px 20px 0px 20px;
+    width: 40%;
+    border-collapse: collapse;
+    text-align: center;
+    border-spacing: none;
+}
+
+.table1 td, .table1 th {
+    border: 2px #DF8C51 solid;
+    padding: 20px;
+}
+
+.table1 th {
+    background-color: #DF8C51;
+    color: white;
+}
+
+/* Table 2 */
+
+table.table2 {
+    margin: 0px 20px 0px 20px;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    border-spacing: none;
+}
+
+.table2 th, .table2 td {
+    border: 2px #DF8C51 solid;
+    padding: 20px;
+}
+
+.table2 th {
+    background-color: #DF8C51;
+    color: white;
+}
+
+/* Table 3 */
+
+.table3 {
+    margin: 0px 20px 0px 20px;
+    width: 90%;
+    height: auto;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    border-spacing: none;
+    border: 2px #DF8C51 solid;
+}
+
+.table3left {
+    margin: 20px 20px 20px 20px;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    border-spacing: none;
+    border: 2px #DF8C51 solid;
+}
+
+.table3left td, .table3left th {
+    border: 2px #DF8C51 solid;
+    padding: 10px;
+}
+
+.table3right {
+    margin: 20px 20px 20px 20px;
+    width: auto;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    border-spacing: none;
+    border: 2px #DF8C51 solid;
+}
+
+.table3right td, .table3right th {
+    border: 2px #DF8C51 solid;
+    padding: 10px;
+}
+
+#captiontableleft {
+    padding: 10px;
+}
+
+#captiontableright {
+    caption-side: bottom;
+    padding: 10px;
+}
+
+/* Table 4 */
+
+.table4 {
+    margin: 0px 20px 0px 20px;
+    width: 40%;
+    border-collapse: collapse;
+    text-align: center;
+    border-spacing: none;
+    border: 2px #DF8C51 solid;
+}
+
+/* Table 5 */
+
+.table5 {
+    margin: 0px 20px 0px 20px;
+    width: auto;
+    border-collapse: collapse;
+    border-spacing: none;
+    border: 2px #DF8C51 solid;
+}
+
+.table5 tr {
+    height: 100px;
+    vertical-align: middle;
+}
+
+.table5 td {
+    padding: 20px;
+    text-align: center;
+}
+
+figcaption {
+    font-weight: normal;
+}
+
+/* List - Tables */
+
+.listTable {
+    margin: 0px 20px 0px 20px;
+    width: 30%;
+    border-collapse: collapse;
+    border-spacing: none;
+    border: 2px #DF8C51 solid;
+}
+
+.listTable td {
+    padding: 20px;
+    text-align: center;
+    border: 2px #DF8C51 solid;
+}
+
+.listTable caption {
+    padding: 20px;
+}
+
+ul.disc {
+    list-style-type: disc;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.square {
+    list-style-type: square;
+}
+
+ul.image {
+    list-style-image: url("../images/ok-1976099_640.png");
+}
