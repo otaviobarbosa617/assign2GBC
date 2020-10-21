@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Otavio Barbosa - COMP 1223 - Assignment 2 - Main Page</title>
+    <meta name="description" content="This is the List page for the Assignment 2 of the COMP 1223 Course">
+    <meta name="keywords" content="Assignment 2, COMP, 1223, Otavio, Barbosa, HTML5 List Page">
+    <meta name="author" content="Otavio Barbosa">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Otavio Barbosa</h1>
+        <nav id="nav_menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="resume.html">Resume</a>
+                </li>
+                <li>
+                    <a href="tables.html">HTML5 Tables</a>
+                </li>
+                <li>
+                    <a href="htmlList.html" class="current">HTML5 Lists</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+    <hr>
+    <main>
+        <h2>HTML5 Lists</h2>
+        <div>
+            <table class="listTable">
+                <caption><h3>List example 1 - Ordered Lists</h3></caption>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ol type="1">
+                                <li>Numerical</li>
+                                <li>Numerical</li>
+                                <li>Numerical</li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol type="a">
+                                <li>Smallcase</li>
+                                <li>Smallcase</li>
+                                <li>Smallcase</li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol type="A">
+                                <li>Uppercase</li>
+                                <li>Uppercase</li>
+                                <li>Uppercase</li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol type="i">
+                                <li>Small-roman</li>
+                                <li>Small-roman</li>
+                                <li>Small-roman</li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol type="I">
+                                <li>Upper-roman</li>
+                                <li>Upper-roman</li>
+                                <li>Upper-roman</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <table class="listTable">
+                <caption><h3>List example 2 - Unordered Lists</h3></caption>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul class="disc">
+                                <li>Disc type</li>
+                                <li>Disc type</li>
+                                <li>Disc type</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul class="circle">
+                                <li>Circle type</li>
+                                <li>Circle type</li>
+                                <li>Circle type</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul class="square">
+                                <li>Square type</li>
+                                <li>Square type</li>
+                                <li>Square type</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul class="image">
+                                <li>Image type</li>
+                                <li>Image type</li>
+                                <li>Image type</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <table class="listTable">
+                <caption><h3>List example 3 - Definition Lists</h3></caption>
+                <tbody>
+                    <tr>
+                        <td>
+                            <dl>
+                                <dt>Definition List:</dt>
+                                <dd>Definition List item</dd>
+                                <dd>Definition List item</dd>
+                                <dd>Definition List item</dd>
+                            </dl>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <table class="listTable">
+                <caption><h3>List example 4 - Nested Ordered List</h3></caption>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ol>
+                                <li>Item 1
+                                    <ol>
+                                        <li>Item 1.1
+                                            <ol>
+                                                <li>Item 1.1.1</li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <table class="listTable">
+                <caption><h3>List example 5 - Nested Unordered List</h3></caption>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Item 1
+                                    <ul>
+                                        <li>Item 1.1
+                                            <ul>
+                                                <li>Item 1.1.1</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <br>
+    <hr>
+    <br>
+    <footer>
+        <p><a href="#">Top of Page</a></p>
+        <p>Background Image by <a href="http://www.freepik.com" target="_blank">Harryarts / Freepik</a></p>
+        <script src="https://my.gblearn.com/js/loadscript.js"></script>
+    </footer>
+</body>
+</html>
