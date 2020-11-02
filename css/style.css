@@ -92,7 +92,9 @@ a {
 
 
 #shortdesc {
-    list-style-type: none;
+    text-align: justify;
+    margin: 20px 20px 20px 20px;
+    line-height: 120%;
 }
 
 footer p:first-child a {
@@ -127,7 +129,7 @@ table {
 }
 
 td {
-    border: 2p black solid;
+    border: 2px black solid;
     border-collapse: collapse;
     padding: 10px;
 }
@@ -168,9 +170,10 @@ table.tablesCourses {
 table.table1 {
     margin: 0px 20px 0px 20px;
     width: 40%;
-    border-collapse: collapse;
+    border-collapse: separate;
     text-align: center;
-    border-spacing: none;
+    border-spacing: 2px;
+    border: 2px #DF8C51 solid
 }
 
 .table1 td, .table1 th {
@@ -191,7 +194,6 @@ table.table2 {
     border-collapse: collapse;
     text-align: center;
     vertical-align: middle;
-    border-spacing: none;
 }
 
 .table2 th, .table2 td {
@@ -213,18 +215,18 @@ table.table2 {
     border-collapse: collapse;
     text-align: center;
     vertical-align: middle;
-    border-spacing: none;
+}
+
+.table3 td {
     border: 2px #DF8C51 solid;
 }
 
 .table3left {
     margin: 20px 20px 20px 20px;
-    width: 70%;
+    width: auto;
     border-collapse: collapse;
     text-align: center;
     vertical-align: middle;
-    border-spacing: none;
-    border: 2px #DF8C51 solid;
 }
 
 .table3left td, .table3left th {
@@ -238,7 +240,6 @@ table.table2 {
     border-collapse: collapse;
     text-align: center;
     vertical-align: middle;
-    border-spacing: none;
     border: 2px #DF8C51 solid;
 }
 
@@ -263,7 +264,6 @@ table.table2 {
     width: 40%;
     border-collapse: collapse;
     text-align: center;
-    border-spacing: none;
     border: 2px #DF8C51 solid;
 }
 
@@ -272,9 +272,6 @@ table.table2 {
 .table5 {
     margin: 0px 20px 0px 20px;
     width: auto;
-    border-collapse: collapse;
-    border-spacing: none;
-    border: 2px #DF8C51 solid;
 }
 
 .table5 tr {
@@ -285,6 +282,7 @@ table.table2 {
 .table5 td {
     padding: 20px;
     text-align: center;
+    border: 2px #DF8C51 solid;
 }
 
 figcaption {
@@ -297,7 +295,6 @@ figcaption {
     margin: 0px 20px 0px 20px;
     width: 30%;
     border-collapse: collapse;
-    border-spacing: none;
     border: 2px #DF8C51 solid;
 }
 
@@ -324,5 +321,5 @@ ul.square {
 }
 
 ul.image {
-    list-style-image: url("../images/ok-1976099_640.png");
+    list-style-image: url("../images/ok1976099_640.png");
 }
